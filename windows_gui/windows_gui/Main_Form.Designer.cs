@@ -142,6 +142,7 @@
             resources.ApplyResources(this.button_flashstate, "button_flashstate");
             this.button_flashstate.Name = "button_flashstate";
             this.button_flashstate.UseVisualStyleBackColor = true;
+            this.button_flashstate.Click += new System.EventHandler(this.button_flashstate_Click);
             // 
             // button1
             // 
