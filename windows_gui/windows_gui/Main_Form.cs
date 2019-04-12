@@ -36,6 +36,12 @@ namespace windows_gui
                                      (vms_result == VMS_statecode.stop) ? "停止" :
                                      "未知";
             label_VMWareState.Text = vms_replacetext;
+
+            HVS_statecode hvs_result = Service_Manager.get_HyperV_current_state();
+            String hvs_replacetext = (hvs_result == HVS_statecode.running) ? "运行中" :
+                                     (hvs_result == HVS_statecode.stop) ? "停止" :
+                                     "未知";
+            label_HyperVState.Text = hvs_replacetext;
         }
     }
 }
