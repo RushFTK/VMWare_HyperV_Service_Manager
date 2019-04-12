@@ -130,7 +130,7 @@
     <value>3, 0</value>
   </data>
   <data name="label_HyperVStateName.Size" type="System.Drawing.Size, System.Drawing">
-    <value>122, 23</value>
+    <value>136, 28</value>
   </data>
   <data name="label_HyperVStateName.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -160,10 +160,10 @@
     <value>True</value>
   </data>
   <data name="label_HyperVState.Location" type="System.Drawing.Point, System.Drawing">
-    <value>131, 0</value>
+    <value>145, 0</value>
   </data>
   <data name="label_HyperVState.Size" type="System.Drawing.Size, System.Drawing">
-    <value>80, 23</value>
+    <value>90, 28</value>
   </data>
   <data name="label_HyperVState.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -193,7 +193,7 @@
     <value>3, 3</value>
   </data>
   <data name="button_StartHyperVService.Size" type="System.Drawing.Size, System.Drawing">
-    <value>132, 22</value>
+    <value>134, 22</value>
   </data>
   <data name="button_StartHyperVService.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -220,10 +220,10 @@
     <value>True</value>
   </data>
   <data name="label_VMWareStateName.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 23</value>
+    <value>3, 28</value>
   </data>
   <data name="label_VMWareStateName.Size" type="System.Drawing.Size, System.Drawing">
-    <value>122, 23</value>
+    <value>136, 28</value>
   </data>
   <data name="label_VMWareStateName.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -253,10 +253,10 @@
     <value>True</value>
   </data>
   <data name="label_VMWareState.Location" type="System.Drawing.Point, System.Drawing">
-    <value>131, 23</value>
+    <value>145, 28</value>
   </data>
   <data name="label_VMWareState.Size" type="System.Drawing.Size, System.Drawing">
-    <value>80, 23</value>
+    <value>90, 28</value>
   </data>
   <data name="label_VMWareState.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -286,7 +286,7 @@
     <value>3, 59</value>
   </data>
   <data name="button_StartVMWareService.Size" type="System.Drawing.Size, System.Drawing">
-    <value>132, 22</value>
+    <value>134, 22</value>
   </data>
   <data name="button_StartVMWareService.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -305,153 +305,6 @@
   </data>
   <data name="&gt;&gt;button_StartVMWareService.ZOrder" xml:space="preserve">
     <value>2</value>
-  </data>
-  <data name="tableLayoutPanel1.ColumnCount" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="label_VMWareStart.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left, Right</value>
-  </data>
-  <data name="label_VMWareStart.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label_VMWareStart.Location" type="System.Drawing.Point, System.Drawing">
-    <value>131, 69</value>
-  </data>
-  <data name="label_VMWareStart.Size" type="System.Drawing.Size, System.Drawing">
-    <value>80, 26</value>
-  </data>
-  <data name="label_VMWareStart.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="label_VMWareStart.Text" xml:space="preserve">
-    <value>待检测</value>
-  </data>
-  <data name="label_VMWareStart.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleCenter</value>
-  </data>
-  <data name="&gt;&gt;label_VMWareStart.Name" xml:space="preserve">
-    <value>label_VMWareStart</value>
-  </data>
-  <data name="&gt;&gt;label_VMWareStart.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label_VMWareStart.Parent" xml:space="preserve">
-    <value>tableLayoutPanel1</value>
-  </data>
-  <data name="&gt;&gt;label_VMWareStart.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="label_VMWareStartName.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left, Right</value>
-  </data>
-  <data name="label_VMWareStartName.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label_VMWareStartName.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 46</value>
-  </data>
-  <data name="label_VMWareStartName.Size" type="System.Drawing.Size, System.Drawing">
-    <value>122, 23</value>
-  </data>
-  <data name="label_VMWareStartName.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="label_VMWareStartName.Text" xml:space="preserve">
-    <value>VMWare服务状态：</value>
-  </data>
-  <data name="label_VMWareStartName.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleCenter</value>
-  </data>
-  <data name="&gt;&gt;label_VMWareStartName.Name" xml:space="preserve">
-    <value>label_VMWareStartName</value>
-  </data>
-  <data name="&gt;&gt;label_VMWareStartName.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label_VMWareStartName.Parent" xml:space="preserve">
-    <value>tableLayoutPanel1</value>
-  </data>
-  <data name="&gt;&gt;label_VMWareStartName.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="label_HyperVStart.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left, Right</value>
-  </data>
-  <data name="label_HyperVStart.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label_HyperVStart.Location" type="System.Drawing.Point, System.Drawing">
-    <value>131, 46</value>
-  </data>
-  <data name="label_HyperVStart.Size" type="System.Drawing.Size, System.Drawing">
-    <value>80, 23</value>
-  </data>
-  <data name="label_HyperVStart.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="label_HyperVStart.Text" xml:space="preserve">
-    <value>待检测</value>
-  </data>
-  <data name="label_HyperVStart.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleCenter</value>
-  </data>
-  <data name="&gt;&gt;label_HyperVStart.Name" xml:space="preserve">
-    <value>label_HyperVStart</value>
-  </data>
-  <data name="&gt;&gt;label_HyperVStart.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label_HyperVStart.Parent" xml:space="preserve">
-    <value>tableLayoutPanel1</value>
-  </data>
-  <data name="&gt;&gt;label_HyperVStart.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="label_HyperVStartName.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left, Right</value>
-  </data>
-  <data name="label_HyperVStartName.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label_HyperVStartName.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 69</value>
-  </data>
-  <data name="label_HyperVStartName.Size" type="System.Drawing.Size, System.Drawing">
-    <value>122, 26</value>
-  </data>
-  <data name="label_HyperVStartName.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="label_HyperVStartName.Text" xml:space="preserve">
-    <value>HyperV启动方式：</value>
-  </data>
-  <data name="label_HyperVStartName.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleCenter</value>
-  </data>
-  <data name="&gt;&gt;label_HyperVStartName.Name" xml:space="preserve">
-    <value>label_HyperVStartName</value>
-  </data>
-  <data name="&gt;&gt;label_HyperVStartName.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label_HyperVStartName.Parent" xml:space="preserve">
-    <value>tableLayoutPanel1</value>
-  </data>
-  <data name="&gt;&gt;label_HyperVStartName.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="tableLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>16, 20</value>
-  </data>
-  <data name="tableLayoutPanel1.RowCount" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="tableLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>214, 95</value>
-  </data>
-  <data name="tableLayoutPanel1.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
   </data>
   <data name="&gt;&gt;tableLayoutPanel1.Name" xml:space="preserve">
     <value>tableLayoutPanel1</value>
@@ -492,8 +345,218 @@
   <data name="&gt;&gt;groupBox_stateviewer.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="tableLayoutPanel_operatorlist.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>None</value>
+  <data name="tableLayoutPanel1.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;label_VMWareStart.Name" xml:space="preserve">
+    <value>label_VMWareStart</value>
+  </data>
+  <data name="&gt;&gt;label_VMWareStart.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_VMWareStart.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;label_VMWareStart.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;label_VMWareStartName.Name" xml:space="preserve">
+    <value>label_VMWareStartName</value>
+  </data>
+  <data name="&gt;&gt;label_VMWareStartName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_VMWareStartName.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;label_VMWareStartName.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;label_HyperVStart.Name" xml:space="preserve">
+    <value>label_HyperVStart</value>
+  </data>
+  <data name="&gt;&gt;label_HyperVStart.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_HyperVStart.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;label_HyperVStart.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;label_HyperVStartName.Name" xml:space="preserve">
+    <value>label_HyperVStartName</value>
+  </data>
+  <data name="&gt;&gt;label_HyperVStartName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_HyperVStartName.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;label_HyperVStartName.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="tableLayoutPanel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tableLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 17</value>
+  </data>
+  <data name="tableLayoutPanel1.RowCount" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="tableLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>238, 115</value>
+  </data>
+  <data name="tableLayoutPanel1.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.Name" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.Parent" xml:space="preserve">
+    <value>groupBox_stateviewer</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tableLayoutPanel1.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="label_VMWareStateName" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="label_VMWareStart" Row="3" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="label_VMWareStartName" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="label_HyperVStart" Row="2" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="label_HyperVStartName" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="label_VMWareState" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="label_HyperVState" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="label_HyperVStateName" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,60,Percent,40" /&gt;&lt;Rows Styles="Percent,25,Percent,25,Percent,25,Percent,25" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="label_VMWareStart.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="label_VMWareStart.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label_VMWareStart.Location" type="System.Drawing.Point, System.Drawing">
+    <value>145, 84</value>
+  </data>
+  <data name="label_VMWareStart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 31</value>
+  </data>
+  <data name="label_VMWareStart.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="label_VMWareStart.Text" xml:space="preserve">
+    <value>待检测</value>
+  </data>
+  <data name="label_VMWareStart.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;label_VMWareStart.Name" xml:space="preserve">
+    <value>label_VMWareStart</value>
+  </data>
+  <data name="&gt;&gt;label_VMWareStart.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_VMWareStart.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;label_VMWareStart.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label_VMWareStartName.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="label_VMWareStartName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label_VMWareStartName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 56</value>
+  </data>
+  <data name="label_VMWareStartName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 28</value>
+  </data>
+  <data name="label_VMWareStartName.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="label_VMWareStartName.Text" xml:space="preserve">
+    <value>VMWare服务状态：</value>
+  </data>
+  <data name="label_VMWareStartName.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;label_VMWareStartName.Name" xml:space="preserve">
+    <value>label_VMWareStartName</value>
+  </data>
+  <data name="&gt;&gt;label_VMWareStartName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_VMWareStartName.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;label_VMWareStartName.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label_HyperVStart.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="label_HyperVStart.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label_HyperVStart.Location" type="System.Drawing.Point, System.Drawing">
+    <value>145, 56</value>
+  </data>
+  <data name="label_HyperVStart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 28</value>
+  </data>
+  <data name="label_HyperVStart.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="label_HyperVStart.Text" xml:space="preserve">
+    <value>待检测</value>
+  </data>
+  <data name="label_HyperVStart.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;label_HyperVStart.Name" xml:space="preserve">
+    <value>label_HyperVStart</value>
+  </data>
+  <data name="&gt;&gt;label_HyperVStart.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_HyperVStart.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;label_HyperVStart.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="label_HyperVStartName.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="label_HyperVStartName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label_HyperVStartName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 84</value>
+  </data>
+  <data name="label_HyperVStartName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 31</value>
+  </data>
+  <data name="label_HyperVStartName.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="label_HyperVStartName.Text" xml:space="preserve">
+    <value>HyperV启动方式：</value>
+  </data>
+  <data name="label_HyperVStartName.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;label_HyperVStartName.Name" xml:space="preserve">
+    <value>label_HyperVStartName</value>
+  </data>
+  <data name="&gt;&gt;label_HyperVStartName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_HyperVStartName.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;label_HyperVStartName.ZOrder" xml:space="preserve">
+    <value>4</value>
   </data>
   <data name="tableLayoutPanel_operatorlist.ColumnCount" type="System.Int32, mscorlib">
     <value>1</value>
@@ -505,7 +568,7 @@
     <value>3, 87</value>
   </data>
   <data name="button_ActiveVMWare.Size" type="System.Drawing.Size, System.Drawing">
-    <value>132, 22</value>
+    <value>134, 25</value>
   </data>
   <data name="button_ActiveVMWare.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -532,7 +595,7 @@
     <value>3, 31</value>
   </data>
   <data name="button_ActiveHyperV.Size" type="System.Drawing.Size, System.Drawing">
-    <value>132, 22</value>
+    <value>134, 22</value>
   </data>
   <data name="button_ActiveHyperV.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -552,14 +615,17 @@
   <data name="&gt;&gt;button_ActiveHyperV.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
+  <data name="tableLayoutPanel_operatorlist.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
   <data name="tableLayoutPanel_operatorlist.Location" type="System.Drawing.Point, System.Drawing">
-    <value>17, 15</value>
+    <value>3, 17</value>
   </data>
   <data name="tableLayoutPanel_operatorlist.RowCount" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
   <data name="tableLayoutPanel_operatorlist.Size" type="System.Drawing.Size, System.Drawing">
-    <value>138, 112</value>
+    <value>140, 115</value>
   </data>
   <data name="tableLayoutPanel_operatorlist.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -583,7 +649,7 @@
     <value>262, 32</value>
   </data>
   <data name="groupBox_controller.Size" type="System.Drawing.Size, System.Drawing">
-    <value>170, 135</value>
+    <value>146, 135</value>
   </data>
   <data name="groupBox_controller.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -612,21 +678,6 @@
   <data name="ToolStripMenu_File.Text" xml:space="preserve">
     <value>文件(&amp;F)</value>
   </data>
-  <data name="ToolStripMenuItem_About.Size" type="System.Drawing.Size, System.Drawing">
-    <value>116, 22</value>
-  </data>
-  <data name="ToolStripMenuItem_About.Text" xml:space="preserve">
-    <value>关于(&amp;A)</value>
-  </data>
-  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>113, 6</value>
-  </data>
-  <data name="ToolStripMenuItem_Close.Size" type="System.Drawing.Size, System.Drawing">
-    <value>116, 22</value>
-  </data>
-  <data name="ToolStripMenuItem_Close.Text" xml:space="preserve">
-    <value>退出(&amp;E)</value>
-  </data>
   <data name="ToolStripMenu_Help.Size" type="System.Drawing.Size, System.Drawing">
     <value>61, 21</value>
   </data>
@@ -637,7 +688,7 @@
     <value>0, 0</value>
   </data>
   <data name="menuStrip_mainmenu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>449, 25</value>
+    <value>414, 25</value>
   </data>
   <data name="menuStrip_mainmenu.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -657,8 +708,23 @@
   <data name="&gt;&gt;menuStrip_mainmenu.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
+  <data name="ToolStripMenuItem_About.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 22</value>
+  </data>
+  <data name="ToolStripMenuItem_About.Text" xml:space="preserve">
+    <value>关于(&amp;A)</value>
+  </data>
+  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 6</value>
+  </data>
+  <data name="ToolStripMenuItem_Close.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 22</value>
+  </data>
+  <data name="ToolStripMenuItem_Close.Text" xml:space="preserve">
+    <value>退出(&amp;E)</value>
+  </data>
   <data name="button_flashstate.Location" type="System.Drawing.Point, System.Drawing">
-    <value>68, 185</value>
+    <value>71, 185</value>
   </data>
   <data name="button_flashstate.Size" type="System.Drawing.Size, System.Drawing">
     <value>110, 23</value>
@@ -712,7 +778,7 @@
     <value>6, 12</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>449, 228</value>
+    <value>414, 228</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>VH ManageTools</value>

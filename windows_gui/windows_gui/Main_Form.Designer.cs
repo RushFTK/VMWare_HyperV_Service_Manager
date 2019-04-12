@@ -36,7 +36,15 @@
             this.label_VMWareState = new System.Windows.Forms.Label();
             this.button_StartVMWareService = new System.Windows.Forms.Button();
             this.groupBox_stateviewer = new System.Windows.Forms.GroupBox();
+            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.label_VMWareStart = new System.Windows.Forms.Label();
+            this.label_VMWareStartName = new System.Windows.Forms.Label();
+            this.label_HyperVStart = new System.Windows.Forms.Label();
+            this.label_HyperVStartName = new System.Windows.Forms.Label();
             this.groupBox_controller = new System.Windows.Forms.GroupBox();
+            this.tableLayoutPanel_operatorlist = new System.Windows.Forms.TableLayoutPanel();
+            this.button_ActiveVMWare = new System.Windows.Forms.Button();
+            this.button_ActiveHyperV = new System.Windows.Forms.Button();
             this.menuStrip_mainmenu = new System.Windows.Forms.MenuStrip();
             this.ToolStripMenu_File = new System.Windows.Forms.ToolStripMenuItem();
             this.ToolStripMenu_Help = new System.Windows.Forms.ToolStripMenuItem();
@@ -45,19 +53,11 @@
             this.ToolStripMenuItem_Close = new System.Windows.Forms.ToolStripMenuItem();
             this.button_flashstate = new System.Windows.Forms.Button();
             this.button_exit = new System.Windows.Forms.Button();
-            this.label_HyperVStartName = new System.Windows.Forms.Label();
-            this.label_HyperVStart = new System.Windows.Forms.Label();
-            this.label_VMWareStartName = new System.Windows.Forms.Label();
-            this.label_VMWareStart = new System.Windows.Forms.Label();
-            this.button_ActiveHyperV = new System.Windows.Forms.Button();
-            this.button_ActiveVMWare = new System.Windows.Forms.Button();
-            this.tableLayoutPanel_operatorlist = new System.Windows.Forms.TableLayoutPanel();
-            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.groupBox_stateviewer.SuspendLayout();
-            this.groupBox_controller.SuspendLayout();
-            this.menuStrip_mainmenu.SuspendLayout();
-            this.tableLayoutPanel_operatorlist.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
+            this.groupBox_controller.SuspendLayout();
+            this.tableLayoutPanel_operatorlist.SuspendLayout();
+            this.menuStrip_mainmenu.SuspendLayout();
             this.SuspendLayout();
             // 
             // label_HyperVStateName
@@ -99,12 +99,66 @@
             this.groupBox_stateviewer.Name = "groupBox_stateviewer";
             this.groupBox_stateviewer.TabStop = false;
             // 
+            // tableLayoutPanel1
+            // 
+            resources.ApplyResources(this.tableLayoutPanel1, "tableLayoutPanel1");
+            this.tableLayoutPanel1.Controls.Add(this.label_VMWareStateName, 0, 1);
+            this.tableLayoutPanel1.Controls.Add(this.label_VMWareStart, 1, 3);
+            this.tableLayoutPanel1.Controls.Add(this.label_VMWareStartName, 0, 2);
+            this.tableLayoutPanel1.Controls.Add(this.label_HyperVStart, 1, 2);
+            this.tableLayoutPanel1.Controls.Add(this.label_HyperVStartName, 0, 3);
+            this.tableLayoutPanel1.Controls.Add(this.label_VMWareState, 1, 1);
+            this.tableLayoutPanel1.Controls.Add(this.label_HyperVState, 1, 0);
+            this.tableLayoutPanel1.Controls.Add(this.label_HyperVStateName, 0, 0);
+            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
+            // 
+            // label_VMWareStart
+            // 
+            resources.ApplyResources(this.label_VMWareStart, "label_VMWareStart");
+            this.label_VMWareStart.Name = "label_VMWareStart";
+            // 
+            // label_VMWareStartName
+            // 
+            resources.ApplyResources(this.label_VMWareStartName, "label_VMWareStartName");
+            this.label_VMWareStartName.Name = "label_VMWareStartName";
+            // 
+            // label_HyperVStart
+            // 
+            resources.ApplyResources(this.label_HyperVStart, "label_HyperVStart");
+            this.label_HyperVStart.Name = "label_HyperVStart";
+            // 
+            // label_HyperVStartName
+            // 
+            resources.ApplyResources(this.label_HyperVStartName, "label_HyperVStartName");
+            this.label_HyperVStartName.Name = "label_HyperVStartName";
+            // 
             // groupBox_controller
             // 
             this.groupBox_controller.Controls.Add(this.tableLayoutPanel_operatorlist);
             resources.ApplyResources(this.groupBox_controller, "groupBox_controller");
             this.groupBox_controller.Name = "groupBox_controller";
             this.groupBox_controller.TabStop = false;
+            // 
+            // tableLayoutPanel_operatorlist
+            // 
+            resources.ApplyResources(this.tableLayoutPanel_operatorlist, "tableLayoutPanel_operatorlist");
+            this.tableLayoutPanel_operatorlist.Controls.Add(this.button_ActiveVMWare, 0, 3);
+            this.tableLayoutPanel_operatorlist.Controls.Add(this.button_StartHyperVService, 0, 0);
+            this.tableLayoutPanel_operatorlist.Controls.Add(this.button_StartVMWareService, 0, 2);
+            this.tableLayoutPanel_operatorlist.Controls.Add(this.button_ActiveHyperV, 0, 1);
+            this.tableLayoutPanel_operatorlist.Name = "tableLayoutPanel_operatorlist";
+            // 
+            // button_ActiveVMWare
+            // 
+            resources.ApplyResources(this.button_ActiveVMWare, "button_ActiveVMWare");
+            this.button_ActiveVMWare.Name = "button_ActiveVMWare";
+            this.button_ActiveVMWare.UseVisualStyleBackColor = true;
+            // 
+            // button_ActiveHyperV
+            // 
+            resources.ApplyResources(this.button_ActiveHyperV, "button_ActiveHyperV");
+            this.button_ActiveHyperV.Name = "button_ActiveHyperV";
+            this.button_ActiveHyperV.UseVisualStyleBackColor = true;
             // 
             // menuStrip_mainmenu
             // 
@@ -156,60 +210,6 @@
             this.button_exit.Name = "button_exit";
             this.button_exit.UseVisualStyleBackColor = true;
             // 
-            // label_HyperVStartName
-            // 
-            resources.ApplyResources(this.label_HyperVStartName, "label_HyperVStartName");
-            this.label_HyperVStartName.Name = "label_HyperVStartName";
-            // 
-            // label_HyperVStart
-            // 
-            resources.ApplyResources(this.label_HyperVStart, "label_HyperVStart");
-            this.label_HyperVStart.Name = "label_HyperVStart";
-            // 
-            // label_VMWareStartName
-            // 
-            resources.ApplyResources(this.label_VMWareStartName, "label_VMWareStartName");
-            this.label_VMWareStartName.Name = "label_VMWareStartName";
-            // 
-            // label_VMWareStart
-            // 
-            resources.ApplyResources(this.label_VMWareStart, "label_VMWareStart");
-            this.label_VMWareStart.Name = "label_VMWareStart";
-            // 
-            // button_ActiveHyperV
-            // 
-            resources.ApplyResources(this.button_ActiveHyperV, "button_ActiveHyperV");
-            this.button_ActiveHyperV.Name = "button_ActiveHyperV";
-            this.button_ActiveHyperV.UseVisualStyleBackColor = true;
-            // 
-            // button_ActiveVMWare
-            // 
-            resources.ApplyResources(this.button_ActiveVMWare, "button_ActiveVMWare");
-            this.button_ActiveVMWare.Name = "button_ActiveVMWare";
-            this.button_ActiveVMWare.UseVisualStyleBackColor = true;
-            // 
-            // tableLayoutPanel_operatorlist
-            // 
-            resources.ApplyResources(this.tableLayoutPanel_operatorlist, "tableLayoutPanel_operatorlist");
-            this.tableLayoutPanel_operatorlist.Controls.Add(this.button_ActiveVMWare, 0, 3);
-            this.tableLayoutPanel_operatorlist.Controls.Add(this.button_StartHyperVService, 0, 0);
-            this.tableLayoutPanel_operatorlist.Controls.Add(this.button_StartVMWareService, 0, 2);
-            this.tableLayoutPanel_operatorlist.Controls.Add(this.button_ActiveHyperV, 0, 1);
-            this.tableLayoutPanel_operatorlist.Name = "tableLayoutPanel_operatorlist";
-            // 
-            // tableLayoutPanel1
-            // 
-            resources.ApplyResources(this.tableLayoutPanel1, "tableLayoutPanel1");
-            this.tableLayoutPanel1.Controls.Add(this.label_VMWareStateName, 0, 1);
-            this.tableLayoutPanel1.Controls.Add(this.label_VMWareStart, 1, 3);
-            this.tableLayoutPanel1.Controls.Add(this.label_VMWareStartName, 0, 2);
-            this.tableLayoutPanel1.Controls.Add(this.label_HyperVStart, 1, 2);
-            this.tableLayoutPanel1.Controls.Add(this.label_HyperVStartName, 0, 3);
-            this.tableLayoutPanel1.Controls.Add(this.label_VMWareState, 1, 1);
-            this.tableLayoutPanel1.Controls.Add(this.label_HyperVState, 1, 0);
-            this.tableLayoutPanel1.Controls.Add(this.label_HyperVStateName, 0, 0);
-            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
-            // 
             // Main_Form
             // 
             resources.ApplyResources(this, "$this");
@@ -223,12 +223,12 @@
             this.MaximizeBox = false;
             this.Name = "Main_Form";
             this.groupBox_stateviewer.ResumeLayout(false);
-            this.groupBox_controller.ResumeLayout(false);
-            this.menuStrip_mainmenu.ResumeLayout(false);
-            this.menuStrip_mainmenu.PerformLayout();
-            this.tableLayoutPanel_operatorlist.ResumeLayout(false);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
+            this.groupBox_controller.ResumeLayout(false);
+            this.tableLayoutPanel_operatorlist.ResumeLayout(false);
+            this.menuStrip_mainmenu.ResumeLayout(false);
+            this.menuStrip_mainmenu.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
